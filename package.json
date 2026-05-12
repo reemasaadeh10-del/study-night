@@ -1,0 +1,26 @@
+{
+  "name": "study-night",
+  "description": "Flashcard study application",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/shuffle.js",
+    "start": "parcel starter/index.html",
+    "build": "parcel build starter/index.html --dist-dir dist",
+    "gulp": "gulp",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "chai": "^6.2.2",
+    "cypress": "^15.14.2",
+    "eslint": "^10.3.0",
+    "globals": "^17.6.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.8.0",
+    "mocha": "^11.7.5",
+    "parcel": "^2.16.4",
+    "prettier": "^3.0.0"
+  }
+}
