@@ -35,7 +35,7 @@ describe("Form Tests" , () => {
         });
 
         it("should show error when submitting empty card form" , () => {
-        cy.get('[data-cy="set_form"] input[type="submit"]').click();
+        cy.get('[data-cy="card_form"] input[type="submit"]').click();
         cy.get(".error").should("be.visible");
         cy.get(".error").should("contain", "TERM AND DESCRIPTION CANNOT BE EMPTY");
         });
